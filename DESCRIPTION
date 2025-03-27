@@ -1,11 +1,11 @@
 Package: TakuzuGame
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Jeu Takuzu
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Wahel El Mazzouji, Riwa Hachem Reda
+Description: Ce package permet de jouer au jeu Takuzu avec différentes tailles de grille et niveaux de difficulté. 
+    Il génère des grilles valides et vérifie si la solution respecte les règles du jeu Takuzu.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.3.2

@@ -1,3 +1,13 @@
+#' Logique du jeu Takuzu
+#'
+#' Cette fonction gère la logique du jeu Takuzu dans une application Shiny. Elle permet de gérer la création d'une nouvelle partie, le chronomètre, la vérification de la grille et les mises à jour des cases du jeu.
+#'
+#' @param input L'objet `input` de Shiny contenant les valeurs de l'interface utilisateur (taille de la grille, niveau de difficulté, etc.).
+#' @param output L'objet `output` de Shiny où les résultats du jeu (comme la grille et le temps écoulé) seront rendus.
+#' @param session L'objet `session` de Shiny utilisé pour interagir avec la session de l'utilisateur (par exemple, mettre à jour les boutons).
+#'
+#' @return Aucun. Cette fonction modifie directement les objets `input`, `output` et `session` de Shiny pour gérer la logique du jeu Takuzu.
+#' @export
 logique <- function(input, output, session) {
   source("fonctions.R")
 

@@ -1,3 +1,13 @@
+#' Interface utilisateur pour le jeu Takuzu
+#'
+#' Cette fonction crée l'interface utilisateur d'un jeu de Takuzu à l'aide de `shinydashboard`.
+#' Elle comporte deux onglets : "Jouer" et "Instructions", permettant à l'utilisateur de démarrer
+#' une nouvelle partie, de vérifier la grille et de consulter les règles du jeu.
+#' @import shinydashboard
+#' @return Un objet Shiny Dashboard contenant l'interface utilisateur du jeu Takuzu.
+#' @export
+library(shinydashboard)
+
 interface <- dashboardPage(
   dashboardHeader(title = "Takuzu Game"),
   dashboardSidebar(

@@ -1,1 +1,6 @@
-exportPattern("^[[:alpha:]]+")
+export(interface)
+export(logique)
+export(shinyApp)
+export(choisir_difficulte)
+export(generer_takuzu)
+export(verifier_grille)
